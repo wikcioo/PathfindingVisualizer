@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{84d5bce2-5f20-4d2c-bb5f-8374e548a57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Button">
+      <UniqueIdentifier>{bd3f8701-753e-4d7f-9cf1-d292c24e3090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{fd845e85-10ac-43e5-835a-ecc4e6631de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{aa8a4e3b-4f4b-4ec2-ab3f-85bfb78bf94a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="A-star.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="State.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
